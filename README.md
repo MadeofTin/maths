@@ -3,9 +3,9 @@ Solving Problems with Mathematical Landsapes
 
   Start| 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | 10th | 11th | 12th | 
      --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-     SFO | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+     SFO | LAX | LAS | PHX | SEA | DEN | DFW | IAH | ORD | CTL | ALT | MIA | JFK | 
      SEA | SFO | LAS | LAX | DEN | PHX | DFW | ORD | IAH | CLT | ATL | JFK | MIA | 
-     LAX | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+     LAX | LAS | SFO | PHX | DEN | SEA | DFW | IAH | ORD | CLT | ATL | MIA | JFK |
      LAS | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
      PHX | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
      DEN | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

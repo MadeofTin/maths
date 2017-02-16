@@ -56,12 +56,12 @@ This is the "Landscape" you now traverse.
 Next     | SFO | SEA | LAX | LAS | PHX | DEN | DFW | IAH | ORD | CLT | ATL | MIA | JFK | 
 | ---    | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 __1st__  | LAX | SFO | LAS | LAX | LAS | PHX | IAH | DFW | CLT | ATL | CLT | CLT | ATL |
-__2nd__  | SEA | LAS | SFO | PHX | LAX | DFW | DEN | CLT | ATL | MIA | JFK | ATL | ORD |
-__3rd__  | LAS | LAX | PHX | SFO | DEN | LAS | CLT | DEN | JFK | ORD | ORD | IAH | CLT |
-__4th__  | PHX | DEN | SEA | DEN | SFO | LAX | ORD | MIA | DFW | IAH | MIA | JFK | MIA |
+__2nd__  | SEA | LAS | SFO | PHX | LAX | DFW | DEN | CLT | JFK | MIA | JFK | ATL | ORD |
+__3rd__  | LAS | LAX | PHX | SFO | DEN | LAS | CLT | MIA | ATL | ORD | ORD | IAH | CLT |
+__4th__  | PHX | DEN | SEA | DEN | SFO | LAX | ORD | DEN | DFW | IAH | MIA | JFK | MIA |
 __5th__  | DEN | PHX | DEN | SEA | DFW | IAH | PHX | ATL | DEN | DFW | IAH | DFW | DFW |
-__6th__  | DFW | ORD | DFW | DFW | IAH | ORD | ATL | PHX | IAH | JFK | DFW | ORD | IAH | 
-__7th__  | IAH | DFW | IAH | IAH | SEA | SEA | MIA | ORD | MIA | DEN | DEN | DEN | DEN | 
+__6th__  | DFW | ORD | DFW | DFW | IAH | ORD | ATL | PHX | MIA | JFK | DFW | ORD | IAH | 
+__7th__  | IAH | DFW | IAH | IAH | SEA | SEA | MIA | ORD | IAH | DEN | DEN | DEN | DEN | 
 __8th__  | ORD | IAH | ORD | ORD | ORD | SFO | LAS | LAS | PHX | PHX | PHX | PHX | PHX |
 __9th__  | CLT | CLT | CLT | CLT | CLT | CLT | JFK | JFK | SEA | LAS | LAS | LAS | LAS |
 __10th__ | ATL | JFK | ATL | ATl | ATL | ATL | LAX | LAX | LAS | LAX | LAX | LAX | SEA |

@@ -26,13 +26,12 @@ DFW | --> | DEN | 2nd |
 
 Multiply the positions together.
 
-### Full Table
-
    |   |   |   |
 --- | --- | --- | --- |
  DEN | <-> | DFW | 6 |
+ 
+### Full Table
 
-  
 City    | SFO | SEA | LAX | LAS | PHX | DEN | IAH | ORD | CLT | ATL | MIA | JFK | 
 | ---   | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 __SFO__ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

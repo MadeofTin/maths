@@ -23,4 +23,13 @@ There are two operations that deal directly with manipulating numbers. Both are 
 
 ### Folding
 
+![Folding Four Once] [folding-4]
+
 ### Expanding
+
+
+
+
+
+
+[folding-4]: https://docs.google.com/drawings/d/1zVTf3UrXcptXrio7-9IqjeoF0tMAQXgx1sxyAiP7Uu0/pub?w=428&h=165

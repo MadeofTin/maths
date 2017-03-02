@@ -53,7 +53,7 @@ Choose the smallest connection first and then build sequentially eliminating nod
 
 ![Graph Without the Landscape] [Graph-4]
 
-## Option 2 (Build the Landscape and Start from a single point)
+## Option 2 (Build the Landscape and Start from a Single Node)
 
 Nodes sorted from the perspective of each node. 
 
@@ -72,7 +72,7 @@ Start from a node and the decend the list until you reach a node you have not be
 ### Further Work
 
 * You can Change how you build the chain table. Instead of reflecting the table along the diagonal you can flip the values on the opposite side of the diagonal and expand from that value.
-* It seems to work better sometimes then others.
+* It seems to work better sometimes then others, but I have no idea why yet.
 * As the number of nodes increase there is a greater chance that multiple expansions would equal each other. ( 4..9 = 40 & 20..1 = 40 ) You may be able to address this by using a sequential series of prime numbers as the number being expanded.
 
 [Graph-1]: https://docs.google.com/drawings/d/1eqBASrvcI3p8bWkxX62QI9QNZ--CXPLZohplyegMQo8/pub?w=220&h=149

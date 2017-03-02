@@ -78,5 +78,5 @@ Start from a node and the decend the list until you reach a node you have not be
 [Graph-1]: https://docs.google.com/drawings/d/1eqBASrvcI3p8bWkxX62QI9QNZ--CXPLZohplyegMQo8/pub?w=220&h=149
 [Graph-2]: https://docs.google.com/drawings/d/1aOZBCW15eupqPKkuJxA7iqWJsokTK1_-Luhity9dDV4/pub?w=220&h=149
 [Graph-3]: https://docs.google.com/drawings/d/13PD5ItRpvo1uiU8BC0dfGAZpJaEdPprnrR8jLjRst8Q/pub?w=220&h=149
-[Graph-4]: https://docs.google.com/drawings/d/1t2GTLEeYGEbNdTqSC_SIL5WxxQIc0YsVTmXP8zfc2po/pub?w=220&h=149
+[Graph-4]: https://docs.google.com/drawings/d/1t2GTLEeYGEbNdTqSC_SIL5WxxQIc0YsVTmXP8zfc2po/pub?w=220&h=253
 [Graph-5]: https://docs.google.com/drawings/d/1gGqbqBk4G1BlR-5l9oNt_am_G60C6Yz78_ecIa5WRoU/pub?w=221&h=279

@@ -42,11 +42,14 @@ A <-> E = 3..4 = 15
 | Point | A         | B         | C         | D         | E         |
 | ---   | ---       | ---       | ---       | ---       | ---       |
 | **A** | -         | 1..2 = 3  | 2..4 = 10 | 4..4 = 20 | 3..4 = 15 |
-| **B** | 2..1 = 4  | -         | 1..1 = 2  | 4..3 = 16 | 3..3 = 12 |
-| **C** | 4..2 = 12 | 1..1 = 2  | -         | 3..2 = 9  | 2..1 = 4  |
-| **D** | 4..4 = 20 | 3..4 = 15 | 2..3 = 8  | -         | 1..2 = 3  |
-| **E** | 4..3 = 16 | 3..3 = 12 | 1..2 = 3  | 2..1 = 4  |  -        |
+| **B** | 3         | -         | 1..1 = 2  | 4..3 = 16 | 3..3 = 12 |
+| **C** | 10        | 2         | -         | 3..2 = 9  | 2..1 = 4  |
+| **D** | 20        | 16        | 9         | -         | 1..2 = 3  |
+| **E** | 15        | 12        | 4         | 3         |  -        |
 
+## Build the Landscape
+
+Choose the smallest connection first and then build sequentially eliminating nodes as you have connected them.
 
 [Graph-1]: https://docs.google.com/drawings/d/1eqBASrvcI3p8bWkxX62QI9QNZ--CXPLZohplyegMQo8/pub?w=220&h=149
 [Graph-2]: https://docs.google.com/drawings/d/1aOZBCW15eupqPKkuJxA7iqWJsokTK1_-Luhity9dDV4/pub?w=220&h=149

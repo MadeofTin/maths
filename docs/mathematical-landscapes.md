@@ -28,7 +28,7 @@ From each point order the other points based on distance from that point.
 
 ## Combine the Chains
 
-For each point, take is position and the postion of the other point relative to it and combine them using the Expand Operator.
+For each point, take its position and the postion of the other point relative to it and combine them using the Expand Operator.
 
 ![Combine Chains] [Graph-3]
 
@@ -47,10 +47,36 @@ A <-> E = 3..4 = 15
 | **D** | 20        | 16        | 9         | -         | 1..2 = 3  |
 | **E** | 15        | 12        | 4         | 3         |  -        |
 
-## Build the Landscape
+## Option 1 (Build the Graph Without that Landscape)
 
 Choose the smallest connection first and then build sequentially eliminating nodes as you have connected them.
+
+![Graph Without the Landscape] [Graph-4]
+
+## Option 2 (Build the Landscape and Start from a single point)
+
+Nodes sorted from the perspective of each node. 
+
+| Point   | A   | B   | C   | D   | E   |
+| ---     | --- | --- | --- | --- | --- |
+| **1st** | B   | C   | B   | E   | D   |
+| **2nd** | C   | A   | E   | C   | C   |
+| **3rd** | E   | E   | D   | B   | B   |
+| **4th** | D   | D   | A   | A   | A   |
+
+Start from a node and the decend the list until you reach a node you have not been too. Then travel to that node and repeat until you have been through them all.
+
+![Graph Starting From C] [Graph-5]
+
+
+### Further Work
+
+* You can Change how you build the chain table. Instead of reflecting the table along the diagonal you can flip the values on the opposite side of the diagonal and expand from that value.
+* It seems to work better sometimes then others.
+* As the number of nodes increase there is a greater chance that multiple expansions would equal each other. ( 4..9 = 40 & 20..1 = 40 ) You may be able to address this by using a sequential series of prime numbers as the number being expanded.
 
 [Graph-1]: https://docs.google.com/drawings/d/1eqBASrvcI3p8bWkxX62QI9QNZ--CXPLZohplyegMQo8/pub?w=220&h=149
 [Graph-2]: https://docs.google.com/drawings/d/1aOZBCW15eupqPKkuJxA7iqWJsokTK1_-Luhity9dDV4/pub?w=220&h=149
 [Graph-3]: https://docs.google.com/drawings/d/13PD5ItRpvo1uiU8BC0dfGAZpJaEdPprnrR8jLjRst8Q/pub?w=220&h=149
+[Graph-4]: https://docs.google.com/drawings/d/1t2GTLEeYGEbNdTqSC_SIL5WxxQIc0YsVTmXP8zfc2po/pub?w=220&h=149
+[Graph-5]: https://docs.google.com/drawings/d/1gGqbqBk4G1BlR-5l9oNt_am_G60C6Yz78_ecIa5WRoU/pub?w=221&h=279

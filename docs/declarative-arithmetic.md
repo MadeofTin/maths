@@ -19,17 +19,44 @@ If both arguments to the operator are numbers then the operation itself is consi
 
 ### The Operations
 
-There are two operations that deal directly with manipulating numbers. Both are non communicative and represent the practicle inverses of each other.
+There are two operations that deal directly with manipulating numbers. Both are non communicative and represent the practical inverses of each other.
 
 ### Folding
 
-![Folding Four Once] [folding-4]
+Folding a number is like taking a piece of paper and folding it. The instruction informs the operator the number of folds made in that paper. This means that folding something once would be equivilent to dividing it in half. Folding by 0 would be like giving someone a piece of paper, asking them to fold it 0 times, and then return it to you. It returns the number again with no change.
+
+#### Example in Python
+
+```python
+
+def fold(number, instruction):
+
+  # In division folding is equivilent too
+  number = number / (instruction + 1)
+  
+  return number
+```
+
+
 
 ### Expanding
 
+Expanding is like taking a foldable fence and pulling out as many sections from the stack you require. Because this is an abstract concept you have an infinite stack from which to pull. The resulting number is the sum total of "fence" parts pulled out. Pulling out one fence piece would result in doubling the value. Pulling out 2 would result in tripling the initial value. This is because, depending on your point of view, you either start with a fence piece, or when you end you still have the fence piece you began with. Expanding 0 times leaves the stack alone and returns the number with no change.
 
+#### Visual Representation
+![Four Expanding Once] [expanding-4]
 
+#### Example in Python
 
+```python
 
+def expand(number , instruction):
 
-[folding-4]: https://docs.google.com/drawings/d/1zVTf3UrXcptXrio7-9IqjeoF0tMAQXgx1sxyAiP7Uu0/pub?w=428&h=165
+  # In Multiplication expanding is equivlent too
+  number = number * (instruction + 1)
+  
+  return number
+
+```
+
+[expanding-4]: https://docs.google.com/drawings/d/16MxhyjLn1j1CuEi2yjMiKZs3FoGknmxsJO7prQyxork/pub?w=425&h=175
